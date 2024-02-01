@@ -1,7 +1,7 @@
   
 // Script to change the color theme of the webpage 
     document.addEventListener('DOMContentLoaded', function () {
-        // JavaScript code to handle the theme toggle
+        // code to handle the theme toggle
         var defaultModeRadio = document.getElementById('defaultModeRadio');
         var pinkModeRadio = document.getElementById('pinkModeRadio');
         var sidebar = document.querySelector('.sidebar');
@@ -24,7 +24,7 @@
             } else if (pinkModeRadio.checked) {
                 // Pink Mode
                 document.body.classList.add('pink-mode');
-                sidebar.style.backgroundColor = 'skyblue'; // Set sidebar background color to pink
+                sidebar.style.backgroundColor = 'skyblue'; // Set sidebar background color
             }
         }
 
@@ -77,7 +77,7 @@
             activeButton.classList.add('active');
         }
 
-// Script to show pop up when hovering the header
+// Script to show pop up when hovering over the header
         var header = document.querySelector('header');
         var popup = document.getElementById('popup');
 
@@ -100,7 +100,7 @@
         }
 
 
-// Script to add or remove items in the Survey section
+// Script to add items in or remove items from the Survey section
         var surveyList = document.getElementById('surveyList');
         var addBtn = document.getElementById('addBtn');
         var itemInput = document.getElementById('itemInput');
